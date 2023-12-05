@@ -3,18 +3,6 @@
 # 显示所有执行命令
 set -ex
 
-go get -u gorm.io/gorm
-go get -u gorm.io/driver/postgres
-#go get -u gorm.io/driver/clickhouse
-go get -u github.com/jackc/pgconn
-go get -u github.com/gin-gonic/gin
-go get -u go.uber.org/zap
-go get -u github.com/redis/go-redis/v9
-go get -u github.com/jackc/pgconn
-go get -u github.com/golang-jwt/jwt/v4
-go get -u github.com/go-resty/resty/v2
-go get -u github.com/samber/lo
-
 go mod tidy
 
 # 获取远程仓库中的最新标签
